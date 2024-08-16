@@ -16,6 +16,6 @@ public class HelloController {
 
     @GetMapping("/test-pipeline")
     public String test() {
-        return "Commit to test pipeline";
+        return "Test-pipeline";
     }
 }
