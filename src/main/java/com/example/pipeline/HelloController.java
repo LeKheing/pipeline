@@ -13,4 +13,9 @@ public class HelloController {
         model.addAttribute("name", name);
         return "Hello";
     }
+
+    @GetMapping("/test-pipeline")
+    public String test() {
+        return "Commit to test pipeline";
+    }
 }
